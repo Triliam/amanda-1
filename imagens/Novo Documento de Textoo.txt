@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>coracao2-removebg-preview.png</file>
+    <file>163-03.jpg</file>
+    <file>mar.png</file>
+    <file>depositphotos_34847869-stock-illustration-abstract-blue-wavy-background.jpg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/163-03.jpg);
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: monospace;
+    }
+    
+    header {
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    background: #121212;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    }
+    
+    .yes-or-no {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .yes-or-no .yes {
+    font-weight: bold;
+    margin-right: 4px;
+    background: rgb(132, 207, 132);
+    color: white;
+    font-size: 1rem;
+    border: 2,5px solid black;
+    border-radius: 8px;
+    padding: 7px;
+    text-transform: uppercase;
+    }
+
+
+    .yes-or-no .no-yes {
+    margin-left: 5px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    font-size: 1,5rem;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 5px;
+    }
+
+        .yes-or-no .no-yes:hover {
+        margin-left: 5px;
+        font-weight: bold;
+        background: rgb(216, 106, 106);
+        color: white;
+        font-size: 1,5rem;
+        border-radius: 8px;
+        border: 2px solid black;
+        padding: 5px;
+        display: none; 
+        }
+
+      /*  .yes-or-no .no-yes:hover:before {
+        margin-left: 5px;
+        font-weight: bold;
+        background: rgb(216, 106, 106);
+        color: white;
+        font-size: 1,5rem;
+        border-radius: 8px;
+        border: 2px solid black;
+        padding: 5px;
+        display: auto;
+        content: "SIM";
+        }*/
+    
+    h1 {
+    font-size: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #26c5da;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #3e13fe,
+      0 0 31px #3e13fe,
+      0 0 41px #3e13fe,
+      0 0 50px #2b13fe,
+      0 0 70px #2b13fe,
+      0 0 90px #2b13fe,
+      0 0 110px #2b13fe,
+      0 0 120px #2b13fe; 
+
+    }
+
+    .imagens {
+        margin-top: 70px;
+        border: 0.2rem solid #fff;
+        border-radius: 2rem;
+        padding: 0.4em;
+        box-shadow: 0 0 .2rem #fff,
+                    0 0 .2rem #fff,
+                    0 0 2rem #3e13fe,
+                    0 0 0.8rem #3e13fe,
+                    0 0 2.8rem #2b13fe,
+                    inset 0 0 1.3rem #2b13fe;
+    }
