@@ -104,6 +104,17 @@ body {
         display: auto;
         content: "SIM";
         }*/
+
+  .yes-or-no .no {
+    margin-left: 250px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    font-size: 1,5rem;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 5px;
+  }
     
 .h1Pedido1 {
   font-size: 100px;
