@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'Sea Font';
+  src: url(fonts/sea_font.ttf) format(TrueType);
+}
+
+@font-face {
+  font-family: 'Nature';
+  src: url(fonts/TouchOfNature-vZBA.ttf) format(TrueType);
+}
+
+@font-face {
+  font-family: 'Mermaid';
+  src: url(fonts/Beauty\ Mermaid\ -\ Personal\ Use.ttf) format(OpenType);
+}
+
+@font-face {
+  font-family: 'Spart';
+  src: url(fonts/Spartwell.otf) format(OpenType);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -11,27 +31,14 @@ body {
     font-family: monospace;
     }
     
-    header {
-    position: fixed;
-    top: 0;
-    padding: 5px;
-    align-items: center;
-    text-align: center;
-    background: #121212;
-    color: white;
-    width: 100%;
-    font-size: 1rem;
-    font-weight: bold;
-    }
-    
-    .yes-or-no {
+.yes-or-no {
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     }
     
-    .yes-or-no .yes {
+    .yes-or-no .yes1 {
     font-weight: bold;
     margin-right: 4px;
     background: rgb(132, 207, 132);
@@ -43,9 +50,27 @@ body {
     text-transform: uppercase;
     }
 
+    .yes-or-no .yes {
+      font-weight: bold;
+      margin-right: 4px;
+      background: rgb(132, 207, 132);
+      color: white;
+      font-size: 1rem;
+      border: 2,5px solid black;
+      border-radius: 8px;
+      padding: 7px;
+      text-transform: uppercase;
+      box-shadow: 0 0 .2rem #fff,
+                  0 0 .2rem #fff,
+                  0 0 2rem #3e13fe,
+                  0 0 0.8rem #3e13fe,
+                  0 0 2.8rem #2b13fe,
+                  inset 0 0 1.3rem #2b13fe;
+      }
+
 
     .yes-or-no .no-yes {
-    margin-left: 5px;
+    margin-left: 250px;
     font-weight: bold;
     background: transparent;
     color: white;
@@ -80,33 +105,64 @@ body {
         content: "SIM";
         }*/
     
-    h1 {
-    font-size: 70px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #26c5da;
+.h1Pedido1 {
+  font-size: 100px;
+  font-family: 'Spart';
+  color: #fafafa;
+  text-shadow:
+    0 0 7px #b1aeae, 
+    0 0 9px rgb(180, 177, 177), 
+    0 0 10px rgb(197, 217, 223);
+    }
+
+.h1Pedido {
+ 
+  font-size: 100px;
+  font-family: 'Spart';
+  color: #e5f6f8;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px  #3e13fe,
+    0 0 21px #3e13fe,
+    0 0 31px #3e13fe,
+    0 0 41px #3e13fe,
+    0 0 50px #2b13fe;
+}
+
+.imagens {
+  
+  margin-top: 70px;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #3e13fe,
+    0 0 0.8rem #3e13fe,
+    0 0 2.8rem #2b13fe,
+    inset 0 0 1.3rem #2b13fe;
+}
+
+.imagensIndex, .imagens1 {
+  margin-top: 70px;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% { 
     text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #3e13fe,
-      0 0 31px #3e13fe,
-      0 0 41px #3e13fe,
-      0 0 50px #2b13fe,
-      0 0 70px #2b13fe,
-      0 0 90px #2b13fe,
-      0 0 110px #2b13fe,
-      0 0 120px #2b13fe; 
-
-    }
-
-    .imagens {
-        margin-top: 70px;
-        border: 0.2rem solid #fff;
-        border-radius: 2rem;
-        padding: 0.4em;
-        box-shadow: 0 0 .2rem #fff,
-                    0 0 .2rem #fff,
-                    0 0 2rem #3e13fe,
-                    0 0 0.8rem #3e13fe,
-                    0 0 2.8rem #2b13fe,
-                    inset 0 0 1.3rem #2b13fe;
-    }
+    0 0 7px #fff,
+    0 0 10px  #3e13fe,
+    0 0 21px #3e13fe,
+    0 0 31px #3e13fe,
+    0 0 41px #3e13fe,
+    0 0 50px #2b13fe;
+  }
+  20%, 24%, 55% {       
+    text-shadow: none;
+  }
+}
